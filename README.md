@@ -2,59 +2,51 @@
   <img src="https://github.com/LysnakeIT/Citadelles/blob/main/Images/Logo_Citadelles.png" alt="Citadelles" width="200"></a>
 </h1>
 
-# Projet de développement : Citadelle
+# Development project : Citadels
 
-Bienvenue dans le README du projet de développement de Citadelle ! Dans ce document, vous trouverez des informations sur l'équipe, le sujet, l'architecture du projet et comment lancer le jeu.
+Welcome to the README for the Citadels development project! In this document, you'll find information about the team, the subject and the project architecture.
 
-## L'équipe
+## The team
 
-Nous sommes fiers de présenter notre Dream Team, composée des membres suivants :
+We are proud to present our Dream Team, made up of the following members:
 
-- Alexis COMMEAT
-- Lilian DAMIEN
-- Léo CORVE
-- Mathieu LE TORREC
+- <a href="https://github.com/alexis-commeat" class="btn">alexis-commeat</a>
+- <a href="https://github.com/LysnakeIT" class="btn">LysnakeIT [Project Manager]</a>
+- <a href="https://github.com/EpYpaY" class="btn">EpYpaY</a>
+- <a href="https://github.com/Mathieuleto" class="btn">LeToMat</a>
 
-## L'objectif
+## The objective
 
-Notre objectif est de rendre le jeu de plateau Citadelle sous forme électronique. Pour atteindre cet objectif, nous avons développé le jeu Citadelle en Java. Nous disposons d'une version en mode console ainsi que d'une extension graphique.
+Our aim is to make the Citadelle board game available in electronic form. To achieve this, we have developed the Citadelle game in Java. We have a console-mode version as well as a graphics extension.
 
-## Architecture du projet
+## Project architecture
 
-Voici la structure de notre projet, avec les différents dossiers :
+Here is the structure of our project, with the different folders:
 ```yaml
 Code :
     - build :
-        - class : Les fichiers compilés en .class 
-        - doc : La JavaDoc du projet (à ouvrir avec un navigateur)
-        - jar : L'exécutable du jeu (à lancer pour jouer)
+        - class: Files compiled as .class 
+        - doc: The project's JavaDoc (to be opened with a browser)
+        - jar : The game executable (to be launched to play)
     - data :
-        - cartes : Images des différentes cartes du jeu (personnages, quartiers)
-        - assets : Images utilisées pour la version graphique du jeu
+        - cards : Images of the different cards in the game (characters, neighbourhoods)
+        - assets : Images used for the graphic version of the game
     - src :
-        - application : Contient les fichiers nécessaires au lancement du jeu, ainsi que les fichiers de configuration et de    déroulement du jeu 
-        - contrôleur : Contient les fichiers de contrôle du jeu 
-        - modèle : Contient les fichiers de modélisation du jeu
-        - test : Contient les fichiers de test du jeu
-        - vue : Contient les fichiers de vue du jeu (version graphique)
+        - application: Contains the files needed to launch the game, as well as the configuration and runtime files. 
+        - controller: Contains the game control files 
+        - model: Contains the game modelling files
+        - test: Contains the game test files
+        - view: Contains the view files for the game (graphical version)
 
 Images :
-    Contient notre logo du jeu Citadelle, ainsi que les différents graphiques
+    Contains our Citadelle game logo, as well as the various graphics
 
-Rendus :
-    Contient l'ensemble des rendus du projets
+Reports :
+    Contains all project reports
   ```
 
 
-## Lancement du jeu
+## More Informations
 
-1. Téléchargez le dossier depuis GitHub.
-2. **Ensuite placez-vous dans le dossier : Code.**
-3. En ligne de commande :
-   - Exécutez la commande `java -jar ./build/jar/application/Application.jar`.
-4. Sur Visual Studio Code :
-   - Lancez l'exécution
-
-Après la compilation, vous aurez le choix de jouer en mode console ou en mode graphique. Les instructions détaillées seront fournies dans le manuel utilisateur.
-
-Nous espérons que vous apprécierez notre projet de développement de Citadelle !
+If you want more information, please contact LysnakeIT<br>
+We hope you enjoy our Citadels development project!
